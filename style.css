@@ -1,0 +1,181 @@
+*{font-family: 'Raleway', sans-serif;}
+header{
+    background-image: url(photos/belur-01.jpg) ;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* background-color: aqua; */
+}
+
+
+nav{
+   display: flex;
+    /* background-color: azure; */
+    align-items: center;
+    justify-content: space-between; 
+    align-items:flex-start;
+  
+}
+
+ul
+{
+    margin-top: 0;
+    width:100%;
+    list-style-type: none;
+    /* background-color: rgba(241, 31, 3, 0.4); */
+    display: flex;
+    justify-content:flex-start;
+    /* flex-direction: row;    */
+    /* align-items: flex-end; */
+    
+}
+
+li {
+    margin: 15px;
+    padding : 10px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    background-color: rgba(53, 255, 178, 0.9);
+    text-align: center;
+    border-radius: 20px;
+}
+
+li:nth-child(1){
+    margin-left: 0;
+}
+
+
+li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+li:hover
+{
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 205, 126 );
+    text-align: center;
+    border-radius: 20px;
+    
+}
+li a:hover{
+    color:#242424;
+}
+
+.name{
+    display:flex;
+margin-top: 175px;
+flex-direction: column;
+align-items:stretch;
+align-content: space-between;
+justify-content: center;
+/* background-color: antiquewhite; */
+}
+ .subheading{
+    text-align: center;
+    /* background-color: crimson; */
+    margin-bottom: 0;
+    color: #70FFD2;
+}
+ .heading{
+    text-align: center;
+    /* background-color: chartreuse; */
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration:solid;
+    color:#FFFFFF;
+}
+
+
+.heading:hover{
+    text-decoration: underline;
+    
+    color: rgb(255, 255, 255);
+   
+}
+.container{
+    display:flex;
+    /* justify-content: space-around; */
+    margin-top:50px;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    display: flex;
+    height:300px;
+    justify-content: space-around;
+    align-items:center;
+    width:600px;
+    background-color:#29d39d ;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: larger;  
+}
+
+.intro
+{
+    line-height: 30px;
+    /* width:500px; */
+    padding:30px;
+}
+
+.images{
+    margin-top: 50px;;
+    display: flex;
+    width:100%;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.img{
+    width:350px;
+    /* border: 5px solid wheat; */
+    border-radius: 10px;
+    background-color: #393D3C;
+}
+
+#text h4{
+    color:#70FFD2;
+     padding: 30px;
+     text-align: center;
+     /* margin-top: 5px; */
+     line-height: 25px;
+     
+}
+
+#text:hover{
+
+opacity: 0.7;
+}
+
+#img1{
+    background-image: url(photos/durga-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img2{
+    background-image: url(photos/jeet-dutta-PSJr2pvV0Fg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+#img1:hover{
+    opacity:0.7;
+
+}
+
+#img2:hover{
+    opacity:0.7;
+
+}
